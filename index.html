@@ -55,12 +55,13 @@
                 position: absolute;
             }
             #tela{
-                font-size: 50px;
+                font-size: 25px;
                 position: absolute;
                 width: 321px;
                 height: 70px;
                 margin-top: 90px;
                 margin: 90px 40px;
+                word-wrap: break-word;
             }
             button{
                 position: absolute;
@@ -101,14 +102,14 @@
                 <button class="btn btn-outline-dark" id="numero9" onclick="adicionar(9)">9</button>
                 <button class="btn btn-outline-dark" id="numero0" onclick="adicionar(0)">0</button>
                 <div id="margin">
-                <button class="btn btn-outline-secondary" id="soma" onclick="adicionar('+')">+</button>
+                <button class="btn btn-outline-dark" id="soma" onclick="adicionar('+')">+</button>
                 <button class="btn btn-outline-dark" id="sub" onclick="adicionar('-')">-</button>
                 <button class="btn btn-outline-dark"  id="mult" onclick="adicionar('*')">X</button>
                 <button class="btn btn-outline-dark" id="div" onclick="adicionar('/')">/</button>
                 <button class="btn btn-outline-dark"id="equals" onclick="adicionar('=')">=</button>
-            </div>
+                </div>
                 
-                <button class="btn btn-outline-dark"id="novocalc" onclick="novoCalculo()">Novo Calculo</button>
+                <button class="btn btn-outline-dark"id="novocalc" onclick="novoCalculo()">Novo Cálculo</button>
                 <img src="imgCalc.png" alt="">
             </div>
         </div>
