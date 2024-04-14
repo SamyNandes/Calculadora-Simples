@@ -1,0 +1,1 @@
+Primeira calculadora que fiz em Javascript. Ela contém alguns erros. Ela é simples, consegue fazer uma operação por vez e ao terminar necessita clicar em "novo cálculo"
